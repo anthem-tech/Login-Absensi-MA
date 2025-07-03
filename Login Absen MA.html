@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login Absensi</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #6dd5fa, #2980b9);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .container {
+      background-color: white;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      padding: 40px 20px;
+      text-align: center;
+      max-width: 500px;
+      width: 100%;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .logo {
+      width: 100px;
+      margin: 0 auto 20px;
+    }
+
+    h1 {
+      font-size: 22px;
+      color: #333;
+      margin: 10px 0 30px;
+      line-height: 1.5;
+    }
+
+    .button-group {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .btn {
+      background-color: #ff7c04;
+      color: white;
+      border: none;
+      padding: 15px;
+      border-radius: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+      width: 100%;
+    }
+
+    .btn:hover {
+      background-color: #2980b9;
+      transform: scale(1.02);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="https://iili.io/FaHpCdv.png" alt="Logo" class="logo">
+    <h1>
+      SELAMAT DATANG DI SISTEM ABSENSI<br>
+      MADRASAH ALIYAH MIFTAHUL HUDA
+    </h1>
+    <div class="button-group">
+      <button class="btn" onclick="location.href='https://script.google.com/macros/s/AKfycbyoGyywlE_bJIx-ySrGwgwUFRvy9p-PBrk0IQHfBH1JPdxrJl-K-p_9-rFhFpnw2A6j/exec'">
+        ABSENSI KEHADIRAN GURU
+      </button>
+      <button class="btn" onclick="location.href='https://script.google.com/macros/s/AKfycbymYO0GNpPnZxZaX9I3_f3ery7taYs0X17APbXEmGXB8aeeUsntmQzu13_oN8cMVj_z/exec'">
+        ABSENSI SISWA KELAS 10
+      </button>
+      <button class="btn" onclick="location.href='https://script.google.com/macros/s/AKfycbxUn1974677LXka7y5pItVck8IiDNxTWX_t6SVhG4nEWLNnhMrLRmpcXD6L_v-c02jbsA/exec'">
+        ABSENSI SISWA KELAS 11
+      </button>
+      <button class="btn" onclick="location.href='https://script.google.com/macros/s/AKfycbxfGmymnB9UJ5qZt0NBs4dujkfHrDOSPCINTGH0VCXcOyoTnAR8TbZdhWCGjqOL0QHC/exec'">
+        ABSENSI SISWA KELAS 12
+      </button>
+    </div>
+  </div>
+
+</body>
+</html>
